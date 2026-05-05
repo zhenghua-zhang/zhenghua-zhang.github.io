@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student at Cornell University, advised by Dr. Lirong Xiang. My research interests include the mechanical design and control of legged robots, with a focus on agricultural field robotics.
+I am a third-year Ph.D. student at Cornell University, advised by [Dr. Lirong Xiang](https://lr-xiang.github.io/lxweb/). My research interests include the mechanical design and control of legged robots, with a focus on agricultural field robotics.
 
 My Ph.D. work centers on the design, construction, and navigation of a hexapod robot for vine crop fields. I developed a navigation framework that allows the robot to traverse dense agricultural environments while minimizing plant disturbance.
 

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A PDF version of my CV is available here: [Download CV](/files/CV_Zhenghua_Zhang.pdf).
+A selected academic CV is available here: [Download CV](/files/CV_Zhenghua_Zhang.pdf).
 
 ## Education
 

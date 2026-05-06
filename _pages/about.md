@@ -16,12 +16,23 @@ I am currently developing a leg-arm hybrid design that enables a legged robot to
 
 Selected Projects
 ======
-<a href="/projects/bionic-hexapod/">
-  <img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:12px;">
-</a>
-[Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting](/projects/bionic-hexapod/)
+## Selected Projects
 
-I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
+<a href="/projects/bionic-hexapod/">
+  <img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
+</a>
+
+<h3 style="margin-bottom:8px;">
+  <a href="/projects/bionic-hexapod/" style="font-weight:700; text-decoration:none;">
+    Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
+  </a>
+</h3>
+
+<hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+
+<p>
+  I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
+</p>
 
 Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting
 ------

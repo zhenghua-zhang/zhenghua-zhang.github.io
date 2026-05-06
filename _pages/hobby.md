@@ -22,21 +22,23 @@ I joined a rowing club during my undergraduate studies and continued training wi
 
 As part of the rowing team, I competed in national-level races and won a national championship title.
 
-<div style="display:grid; grid-template-columns:1.15fr 1fr; gap:14px; margin-top:18px; align-items:stretch;">
+<div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:14px; margin-top:18px;">
 
-  <img src="/images/rowing4.jpg" alt="Rowing competition" 
-       style="width:100%; height:100%; min-height:520px; object-fit:cover; border-radius:12px;">
+  <img src="/images/rowing1.jpg" alt="Rowing boat preparation" 
+       style="width:100%; height:240px; object-fit:cover; border-radius:12px;">
 
-  <div style="display:grid; grid-template-rows:1fr 1fr 1fr; gap:14px;">
-    <img src="/images/rowing1.jpg" alt="Rowing preparation" 
-         style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
+  <img src="/images/rowing2.jpg" alt="Rowing team preparation" 
+       style="width:100%; height:240px; object-fit:cover; border-radius:12px;">
 
-    <img src="/images/rowing2.jpg" alt="Rowing race" 
-         style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
+</div>
 
-    <img src="/images/rowing3.jpg" alt="Rowing team preparation" 
-         style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
-  </div>
+<div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:14px; margin-top:14px;">
+
+  <img src="/images/rowing3.jpg" alt="Rowing race with annotation" 
+       style="width:100%; border-radius:12px;">
+
+  <img src="/images/rowing4.jpg" alt="Rowing competition with annotation" 
+       style="width:100%; border-radius:12px;">
 
 </div>
 

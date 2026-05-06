@@ -31,10 +31,10 @@ As part of the rowing team, I competed in national-level races and won a nationa
     <img src="/images/rowing1.jpg" alt="Rowing preparation" 
          style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
 
-    <img src="/images/rowing3.jpg" alt="Rowing race" 
+    <img src="/images/rowing2.jpg" alt="Rowing race" 
          style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
 
-    <img src="/images/rowing2.jpg" alt="Rowing team preparation" 
+    <img src="/images/rowing3.jpg" alt="Rowing team preparation" 
          style="width:100%; height:165px; object-fit:cover; border-radius:12px;">
   </div>
 

@@ -8,9 +8,9 @@ author_profile: true
 
 ## Overview
 
-This project develops a crop-aware navigation framework for an adjustable-clearance hexapod robot operating in cluttered vine crop fields. Vine crops such as cucurbits and sweetpotatoes form dense, low-lying vegetation structures, where conventional wheeled or tracked platforms may cause unintended plant damage.
+After developing the first bionic hexapod robot platform, we began to focus on the next challenge: how to enable the robot to autonomously navigate to a target location in dense agricultural fields without damaging surrounding plants. Through earlier field tests, we also found that the previous 3-DOF leg design had limitations in body stability, joint loading, and foothold flexibility.
 
-The goal of this project is to enable a legged robot to navigate through dense agricultural environments by combining aerial perception, semantic mapping, adaptive-clearance planning, and foothold-level motion refinement. Instead of treating all vegetation as rigid obstacles, the framework uses crop-aware environmental information to support safer navigation decisions.
+This project addresses these issues by upgrading the robot with an adjustable-clearance structure and an improved leg configuration. Based on this upgraded platform, I developed a crop-aware navigation framework that integrates UAV-based aerial perception, semantic mapping, adaptive-clearance planning, and foothold-level motion refinement for safer navigation in cluttered vine crop fields.
 
 ## System Overview
 

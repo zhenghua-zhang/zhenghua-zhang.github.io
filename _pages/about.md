@@ -16,60 +16,69 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 - Legged robot mechanical design and control
 - Motion planning and navigation in complex environments
 - Locomotion-manipulation integration for field applications
-- 
+
 ## Selected Projects
 
-<a href="/projects/bionic-hexapod/">
-  <img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
-</a>
+<div style="border:1px solid #e0e0e0; border-radius:12px; padding:16px; margin:24px 0 32px 0;">
 
-<h3 style="margin-bottom:8px;">
-  <a href="/projects/bionic-hexapod/" style="font-weight:700;">
-    Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
+  <a href="/projects/bionic-hexapod/">
+    <img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
   </a>
-</h3>
 
-<hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+  <h3 style="margin-bottom:8px;">
+    <a href="/projects/bionic-hexapod/" style="font-weight:700;">
+      Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
+    </a>
+  </h3>
 
-<p>
-  We designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
-</p>
+  <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
-<br>
+  <p>
+    We designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
+  </p>
 
-<a href="/projects/crop-aware-navigation/">
-  <img src="/images/crop_aware_navigation.jpg" alt="Crop-aware navigation project" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
-</a>
+</div>
 
-<h3 style="margin-bottom:8px;">
-  <a href="/projects/crop-aware-navigation/" style="font-weight:700;">
-    Crop-Aware Navigation for Adjustable-Clearance Hexapod Robots in Vine Crop Fields
+<div style="border:1px solid #e0e0e0; border-radius:12px; padding:16px; margin:24px 0 32px 0;">
+
+  <a href="/projects/crop-aware-navigation/">
+    <img src="/images/crop_aware_navigation.jpg" alt="Crop-aware navigation project" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
   </a>
-</h3>
 
-<hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+  <h3 style="margin-bottom:8px;">
+    <a href="/projects/crop-aware-navigation/" style="font-weight:700;">
+      Crop-Aware Navigation for Adjustable-Clearance Hexapod Robots in Vine Crop Fields
+    </a>
+  </h3>
 
-<p>
-  We developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
-</p>
+  <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+
+  <p>
+    We developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
+  </p>
+
+</div>
 
 <!--
-<a href="/projects/leg-arm-visual-servoing/">
-  <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
-</a>
+<div style="border:1px solid #e0e0e0; border-radius:12px; padding:16px; margin:24px 0 32px 0;">
 
-<h3 style="margin-bottom:8px;">
-  <a href="/projects/leg-arm-visual-servoing/" style="font-weight:700;">
-    Heterogeneous Hexapod Robot with a 5-DOF Leg-Arm Hybrid Limb
+  <a href="/projects/leg-arm-visual-servoing/">
+    <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
   </a>
-</h3>
 
+  <h3 style="margin-bottom:8px;">
+    <a href="/projects/leg-arm-visual-servoing/" style="font-weight:700;">
+      Heterogeneous Hexapod Robot with a 5-DOF Leg-Arm Hybrid Limb
+    </a>
+  </h3>
 
-<hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+  <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
-<p>
-  I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-arm hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
-</p>
+  <p>
+    I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-arm hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
+  </p>
+
+</div>
 -->
 
 ## Selected Publications and Manuscripts

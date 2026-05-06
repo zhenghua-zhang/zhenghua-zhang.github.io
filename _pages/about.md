@@ -17,7 +17,7 @@ I am currently developing a leg-arm hybrid design that enables a legged robot to
 Selected Projects
 ======
 <a href="/projects/bionic-hexapod/">
-  <img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:12px;">
+  <img src="/images/hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:12px;">
 </a>
 [Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting](/projects/bionic-hexapod/)
 ------

@@ -24,7 +24,16 @@ As part of the rowing team, I won a national championship title.
 
 ## Model Aircraft
 
-I enjoy designing, building, and flying model aircraft. This hobby connects naturally with my interests in mechanical design, control, and aerodynamics.
+During my undergraduate studies, I was deeply interested in model aircraft design and fabrication. As a team leader, I led the design, structural fabrication, assembly, and flight testing of a Boeing 737-800 model aircraft.
+
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:10px; margin-top:18px;">
+  <iframe src="https://www.youtube.com/embed/EWljKWPqlsA"
+          title="Boeing 737-800 model aircraft build and flight test"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+</div>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-top:16px;">
   <img src="/images/plane1.jpg" alt="Model aircraft frame" style="width:100%; height:240px; object-fit:cover; border-radius:10px;">

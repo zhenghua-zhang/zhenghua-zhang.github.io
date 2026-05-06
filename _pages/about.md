@@ -39,8 +39,6 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 
 </div>
 
-<hr style="border:0; border-top:2px solid #e0e0e0; margin:42px 0;">
-
 <div style="border:1px solid #e0e0e0; border-radius:12px; padding:16px; margin:24px 0 32px 0;">
 
   <a href="/projects/crop-aware-navigation/">

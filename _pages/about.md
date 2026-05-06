@@ -83,4 +83,5 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 - **Navigating Cluttered Vine Crop Fields with an Adjustable Clearance Hexapod Robot and Energy-Aware Path Planning**  
   **Zhenghua Zhang**, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang\*  
   Under review at *Journal of Field Robotics*.
+
 \* Corresponding author

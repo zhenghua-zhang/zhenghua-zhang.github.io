@@ -10,13 +10,17 @@ Outside of research, I enjoy table tennis, rowing, and model aircraft. These act
 
 <img src="/images/table_tennis.jpg" alt="Table tennis competition" style="width:100%; max-width:750px; border-radius:10px;">
 
-I won first place in the 2024 NCSU Plant Sciences Initiative table tennis tournament.
+I have enjoyed playing table tennis since elementary school and have continued practicing it over the years. It has been a long-term hobby that helps me stay active and focused.
+
+In 2024, I won first place in the NCSU Plant Sciences Initiative table tennis tournament.
 
 ## Rowing
 
 <img src="/images/rowing.jpg" alt="Rowing competition" style="width:100%; max-width:750px; border-radius:10px;">
 
-As part of a rowing team, I won a national championship title. Rowing is a sport that requires rhythm, endurance, and teamwork.
+I joined a rowing club during my undergraduate studies and continued training with the team until graduation. Rowing taught me endurance, rhythm, and teamwork.
+
+As part of the rowing team, I won a national championship title.
 
 ## Model Aircraft
 

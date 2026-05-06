@@ -65,11 +65,10 @@ The experiments demonstrated that the robot can maintain stable locomotion acros
 ## My Contributions
 
 - Designed and built the bionic hexapod robot platform
-- Developed the mechanical structure and leg configuration
-- Integrated sensing, control, and actuation hardware
-- Implemented adaptive gait and clearance-control strategies
-- Conducted simulation and field experiments for terrain adaptability and stability
-- Prepared figures, experiments, and manuscript materials for publication
+- Developed the mechanical structure, leg configuration, and adjustable-clearance mechanism
+- Integrated sensing, control, and actuation hardware for field deployment
+- Implemented adaptive gait, clearance-control strategies, and robot simulation
+- Collaborated with the team on field experiments and manuscript preparation
 
 ## Publication
 

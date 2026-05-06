@@ -10,7 +10,7 @@ author_profile: true
 
 After developing hexapod robots for field navigation, the next challenge is enabling a legged robot to perform useful physical tasks after reaching a target location. In field environments, this requires more than mobility: the robot must perceive a target, position an end-effector, and interact with the environment while maintaining stable locomotion.
 
-This ongoing project explores a heterogeneous hexapod robot with a 5$\times$4-DOF + 1$\times$5-DOF limb configuration. The robot retains five standard 4-DOF locomotion legs, while one limb is redesigned as a 5-DOF leg-arm hybrid limb. During walking, the hybrid limb functions as a locomotion leg; during task execution, it transitions into a manipulation mode for perception-guided field intervention.
+This ongoing project explores a heterogeneous hexapod robot with a 5×4-DOF + 1×5-DOF limb configuration. The robot retains five standard 4-DOF locomotion legs, while one limb is redesigned as a 5-DOF leg-arm hybrid limb. During walking, the hybrid limb functions as a locomotion leg; during task execution, it transitions into a manipulation mode for perception-guided field intervention.
 
 <div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
   <strong>Note:</strong> This project is ongoing. This page provides only a high-level summary of the system concept and hardware design. Additional technical details will be added after the work is published.

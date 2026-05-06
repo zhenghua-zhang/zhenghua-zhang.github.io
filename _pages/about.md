@@ -29,7 +29,7 @@ I am currently developing a leg-arm hybrid design that enables a legged robot to
 <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
 <p>
-  I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
+  We designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
 </p>
 
 <br>
@@ -47,7 +47,7 @@ I am currently developing a leg-arm hybrid design that enables a legged robot to
 <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
 <p>
-  I developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
+  We developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
 </p>
 
 

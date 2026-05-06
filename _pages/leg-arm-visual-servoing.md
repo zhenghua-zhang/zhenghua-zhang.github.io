@@ -20,6 +20,8 @@ This ongoing project explores a heterogeneous hexapod robot with a 5Ã—4-DOF + 1Ã
 
 The key idea is to redesign one leg of the hexapod as a 5-DOF leg-arm hybrid limb. During locomotion, the hybrid limb participates in the walking gait as a support leg. During task execution, it is reconfigured for precision manipulation, allowing the robot to aim a nozzle at nearby weed targets.
 
+<img src="/images/heterogeneous_hexapod_design.jpg" alt="Design of the heterogeneous hexapod robot and 5-DOF leg-arm hybrid limb" style="width:100%; max-width:850px; border-radius:10px;">
+
 This design allows the robot to:
 
 - Maintain legged locomotion with a heterogeneous limb configuration
@@ -40,8 +42,6 @@ A major challenge in this system is that precise calibration alone is not suffic
 In the first stage, a 5-DOF inverse kinematics solver moves the hybrid limb to a coarse aiming pose. In the second stage, image-based visual servoing is used to reduce the remaining image-plane error. This structure allows the system to tolerate mechanical imprecision and refine the final aim through closed-loop correction.
 
 <img src="/images/ibvs_convergence.jpg" alt="Closed-loop visual servoing convergence" style="width:100%; max-width:850px; border-radius:10px;">
-
-
 
 ## Depth-Conditioned Reticle Calibration
 

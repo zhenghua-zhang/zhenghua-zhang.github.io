@@ -29,18 +29,14 @@ author_profile: true
 
 - **Navigating Cluttered Vine Crop Fields with an Adjustable-Clearance Hexapod Robot and Crop-Aware Navigation**  
   **Zhenghua Zhang**, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang\*  
-  Manuscript under review.
+  Manuscript Under review at *Journal of Field Robotics*.
 
 - **Towards Accurate Mushroom Pose Estimation: Integrating Synthetic Data Scaling and Multi-View Attention Fusion**  
   Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
-  Manuscript under review.
-
-- **Monocular Infrared Imaging for High-Throughput Time-Series Phenotyping and Instance-Level Growth Modeling of Mushrooms**  
-  Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
-  Manuscript under review.
+  In Submission to *Computers and Electronics in Agriculture*.
 
 - **MIR3D: Monocular Infrared Geometry Estimation for Autonomous Robotic Mushroom Harvesting in Dark Environments**  
   Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
-  Manuscript under review.
+  In Submission to *IEEE Robotics and Automation Letters (RA-L)*.
 
 \* Corresponding author

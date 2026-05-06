@@ -34,6 +34,24 @@ Selected Projects
   I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
 </p>
 
+```html
+<a href="/projects/crop-aware-navigation/">
+  <img src="/images/crop_aware_navigation.jpg" alt="Crop-aware navigation project" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
+</a>
+
+<h3 style="margin-bottom:8px;">
+  <a href="/projects/crop-aware-navigation/" style="font-weight:700;">
+    Crop-Aware Navigation for Adjustable-Clearance Hexapod Robots in Vine Crop Fields
+  </a>
+</h3>
+
+<hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
+
+<p>
+  I developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
+</p>
+
+
 Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting
 ------
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.

@@ -50,17 +50,17 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 
 
 <a href="/projects/leg-arm-visual-servoing/">
-  <img src="/images/leg_arm_visual_servoing.jpg" alt="Leg-arm visual servoing for precision manipulation" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
+  <img src="/images/leg_arm_visual_servoing.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
 </a>
 
 <h3 style="margin-bottom:8px;">
   <a href="/projects/leg-arm-visual-servoing/" style="font-weight:700;">
-    Heterogeneous Hexapod Robot with Leg-Arm Visual Servoing for Precision Field Manipulation
+    Heterogeneous Hexapod Robot with a 5-DOF Leg-Arm Hybrid Limb
   </a>
 </h3>
 
 <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
 <p>
-  I am developing a heterogeneous hexapod robot that integrates stable locomotion, a 5-DOF leg-arm hybrid mechanism, stereo vision, and closed-loop visual servoing for precision field manipulation.
+  I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-arm hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
 </p>

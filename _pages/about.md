@@ -20,7 +20,6 @@ Selected Projects
   <img src="/images/hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:12px;">
 </a>
 [Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting](/projects/bionic-hexapod/)
-------
 
 I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
 

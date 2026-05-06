@@ -11,7 +11,12 @@ I am a third-year Ph.D. student at Cornell University, advised by [Dr. Lirong Xi
 
 My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine crop fields. I am also developing a leg-arm hybrid design that enables precision manipulation while maintaining stable legged locomotion.
 
+## Research Interests
 
+- Legged robot mechanical design and control
+- Motion planning and navigation in complex environments
+- Locomotion-manipulation integration for field applications
+- 
 ## Selected Projects
 
 <a href="/projects/bionic-hexapod/">
@@ -64,3 +69,17 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 <p>
   I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-arm hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
 </p>
+
+## Selected Publications and Manuscripts
+
+- **Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting**  
+  Zhenghua Zhang, Weilong He, Fan Wu, Lina Maria Quesada-Ocampo, Lirong Xiang  
+  *Frontiers in Robotics and AI*, 2024. [Paper](https://doi.org/10.3389/frobt.2024.1426269)
+
+- **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
+  Zhenghua Zhang, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang  
+  Manuscript in revision for resubmission to *IEEE Robotics and Automation Letters (RA-L)*.
+
+- **Navigating Cluttered Vine Crop Fields with an Adjustable Clearance Hexapod Robot and Energy-Aware Path Planning**  
+  Zhenghua Zhang, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang  
+  Under review at *Journal of Field Robotics*.

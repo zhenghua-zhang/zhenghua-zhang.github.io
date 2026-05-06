@@ -111,7 +111,7 @@ My research focuses on the mechanical design, motion control, and navigation of 
 
 </div>
 
-### Published Papers
+## Published Papers
 
 - **Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting**  
   **Zhenghua Zhang**, Weilong He, Fan Wu, Lina Maria Quesada-Ocampo, Lirong Xiang\*  
@@ -123,7 +123,7 @@ My research focuses on the mechanical design, motion control, and navigation of 
   *Journal of Field Robotics*, 42:657–678, 2025.  
   [Paper](https://doi.org/10.1002/rob.22490)
 
-### Manuscripts Under Review / In Revision
+## Manuscripts Under Review / In Revision
 
 - **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
   **Zhenghua Zhang**, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang\*  

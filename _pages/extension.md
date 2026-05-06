@@ -35,9 +35,9 @@ Dr. Lirong Xiang and I were invited by the Research Triangle AI Society to give 
 [Watch the talk](https://www.youtube.com/watch?v=Ha4TGS6cnaM)
 
 ## New Zealand SP Grower Visit
-
+<!--
 <img src="/images/new_zealand_visit.jpg" alt="New Zealand sweetpotato grower delegation visit" style="width:100%; max-width:850px; border-radius:10px;">
-
+-->
 During a visit from the New Zealand sweetpotato grower delegation, our team presented the robot design concept and demonstrated its field locomotion and precision pesticide-spraying capabilities.
 
 The demonstration highlighted the potential of legged robots for precision agriculture, especially in crop environments where conventional ground vehicles may damage vegetation.

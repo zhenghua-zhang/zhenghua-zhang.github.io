@@ -61,7 +61,9 @@ The navigation framework is designed to exploit the mobility advantages of legge
 
 At the local level, nominal footholds are refined when they overlap with vegetation or obstacles. Candidate footholds are evaluated based on reachability, stability, and deviation from the nominal gait pattern. This allows the robot to reduce unnecessary plant interaction while maintaining stable locomotion.
 
-Since this work is currently under review, only a high-level summary of the planning and foothold refinement framework is provided here. Detailed algorithmic implementation, quantitative results, and full experimental analysis will be added after publication.
+<div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
+  <strong>Note:</strong> Since this work is currently under review, only a high-level summary of the planning and foothold refinement framework is provided here. Detailed algorithmic implementation, quantitative results, and full experimental analysis will be added after publication.
+</div>
 
 ## Technical Highlights
 

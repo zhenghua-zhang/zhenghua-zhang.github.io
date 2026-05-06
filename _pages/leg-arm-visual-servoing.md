@@ -4,7 +4,7 @@ permalink: /projects/leg-arm-visual-servoing/
 author_profile: true
 ---
 
-<img src="/images/leg_arm_visual_servoing.jpg" alt="Heterogeneous hexapod robot with leg-arm hybrid mechanism" style="width:100%; max-width:850px; border-radius:10px;">
+<img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with leg-arm hybrid mechanism" style="width:100%; max-width:850px; border-radius:10px;">
 
 <div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
   <strong>Note:</strong> This project is ongoing. The page provides a high-level summary of the system design and control strategy; additional experimental results will be added after validation is complete.

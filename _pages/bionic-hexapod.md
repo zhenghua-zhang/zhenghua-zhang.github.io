@@ -25,13 +25,10 @@ The robot uses adaptive gait control and adjustable body clearance to improve mo
 - Bionic six-legged robot design
 - Adaptive gait control
 - Adjustable body clearance
-- Lightweight modular structure
 - Field-oriented sensing and control system
 
 ## Publication
 
-Z. Zhang, W. He, F. Wu, L. Quesada, and L. Xiang,  
-“Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting,”  
-*Frontiers in Robotics and AI*, 2024.
+Zhang Z, He W, Wu F, Quesada L and Xiang L (2024) Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting. Front. Robot. AI 11:1426269. doi: 10.3389/frobt.2024.1426269
 
 [Paper](https://doi.org/10.3389/frobt.2024.1426269)

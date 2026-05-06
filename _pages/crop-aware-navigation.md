@@ -76,13 +76,11 @@ At the local level, nominal footholds are refined when they overlap with vegetat
 
 ## My Contributions
 
-- Designed and integrated the adjustable-clearance hexapod robot system
-- Developed the crop-aware navigation framework
-- Built the UAV-based semantic mapping pipeline
-- Implemented adaptive-clearance global path planning
-- Developed the local foothold refinement strategy
-- Conducted greenhouse navigation experiments
-- Prepared manuscript figures, analysis, and writing materials
+- Designed and integrated the adjustable-clearance hexapod robot platform
+- Developed the crop-aware navigation framework, including adaptive-clearance path planning and local foothold refinement
+- Implemented and tested the planning and foothold update modules on the robot system
+- Collaborated on UAV-based perception, semantic mapping, and greenhouse navigation experiments
+- Analyzed robot–plant interaction results and prepared manuscript figures, technical analysis, and writing with the team
 
 ## Manuscript
 

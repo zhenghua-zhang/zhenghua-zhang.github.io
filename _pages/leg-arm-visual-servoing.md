@@ -36,7 +36,9 @@ This design allows the robot to:
 
 To handle depth-dependent aiming offsets, I measured where the spray actually lands in the camera frame at different working distances. Instead of treating calibration as a fixed geometric transform, the system uses a depth-conditioned lookup table that maps working distance to the expected aim point in the image.
 
+<!--
 <img src="/images/reticle_calibration.jpg" alt="Depth-conditioned reticle calibration" style="width:100%; max-width:850px; border-radius:10px;">
+-->
 
 This approach is designed to make the system robust to small mechanical shifts, calibration residuals, and joint backlash.
 

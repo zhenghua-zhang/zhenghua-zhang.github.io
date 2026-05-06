@@ -53,7 +53,7 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
   We developed a crop-aware navigation framework that integrates UAV-based semantic elevation mapping, energy-aware path planning, and foothold refinement to reduce plant contact during hexapod navigation in dense vine crop fields.
 </p>
 
-
+<!--
 <a href="/projects/leg-arm-visual-servoing/">
   <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
 </a>
@@ -64,7 +64,7 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
   </a>
 </h3>
 
-<!--
+
 <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
 <p>

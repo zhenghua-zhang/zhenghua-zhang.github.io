@@ -16,8 +16,6 @@ In 2024, I won first place in the NCSU Plant Sciences Initiative table tennis to
 
 ## Rowing
 
-## Rowing
-
 I joined a rowing club during my undergraduate studies and continued training with the team until graduation. Rowing taught me endurance, rhythm, and teamwork.
 
 As part of the rowing team, I competed in national-level races and won a national championship title.

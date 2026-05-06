@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Zhenghua Zhang"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,9 +17,10 @@ I am currently developing a leg-arm hybrid design that enables a legged robot to
 Selected Projects
 ======
 
-Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting
+[Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting](/projects/bionic-hexapod/)
 ------
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+
+I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
 
 Development of a bionic hexapod robot with adaptive gait and clearance for enhanced agricultural field scouting
 ------

@@ -98,11 +98,11 @@ Aug. 2023 – Jul. 2025
 
 - **Towards Accurate Mushroom Pose Estimation: Integrating Synthetic Data Scaling and Multi-View Attention Fusion**  
   Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
-  Manuscript under review.
+  In Submission to *Computers and Electronics in Agriculture*.
 
 - **MIR3D: Monocular Infrared Geometry Estimation for Autonomous Robotic Mushroom Harvesting in Dark Environments**  
   Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
-  Manuscript under review.
+  In Submission to *IEEE Robotics and Automation Letters (RA-L)*.
 
 \* Corresponding author
 

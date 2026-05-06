@@ -6,6 +6,10 @@ author_profile: true
 
 <img src="/images/crop_aware_navigation.jpg" alt="Crop-aware hexapod navigation in vine crop field" style="width:100%; max-width:850px; border-radius:10px;">
 
+<div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
+  <strong>Note:</strong> Since this work is currently under review, only a high-level summary of the planning and foothold refinement framework is provided here. Detailed algorithmic implementation, quantitative results, and full experimental analysis will be added after publication.
+</div>
+
 ## Overview
 
 After developing the first bionic hexapod robot platform, we began to focus on the next challenge: how to enable the robot to autonomously navigate to a target location in dense agricultural fields without damaging surrounding plants. Through earlier field tests, we also found that the previous 3-DOF leg design had limitations in body stability, joint loading, and foothold flexibility.
@@ -60,10 +64,6 @@ This representation helps the robot distinguish between:
 The navigation framework is designed to exploit the mobility advantages of legged robots. The global planner considers the robot position, heading, and body clearance, allowing the robot to adapt its morphology during navigation. This enables the robot to reason about when to raise its body, when to step over low vegetation, and when to detour around dense obstacles.
 
 At the local level, nominal footholds are refined when they overlap with vegetation or obstacles. Candidate footholds are evaluated based on reachability, stability, and deviation from the nominal gait pattern. This allows the robot to reduce unnecessary plant interaction while maintaining stable locomotion.
-
-<div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
-  <strong>Note:</strong> Since this work is currently under review, only a high-level summary of the planning and foothold refinement framework is provided here. Detailed algorithmic implementation, quantitative results, and full experimental analysis will be added after publication.
-</div>
 
 ## Technical Highlights
 

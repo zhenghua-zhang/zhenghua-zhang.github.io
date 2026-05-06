@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A selected academic CV is available here: [Download CV](/files/CV_public.pdf).
+A selected academic CV is available here: [Download CV](/files/CV_Public.pdf).
 
 ## Education
 

@@ -33,48 +33,83 @@ My research focuses on the mechanical design, motion control, and navigation of 
 
 ## Selected Research Experience
 
-### Cornell University  
-**Graduate Research Assistant**, supervised by Dr. Lirong Xiang  
-Ithaca, NY, USA  
-Since Jan. 2026
+<div style="border-top:1px solid #ddd; padding-top:18px; margin-top:18px;">
 
-**Vision-Guided Precision Weed Spraying Using a Heterogeneous Leg–Arm Hexapod Robot**  
-*Ongoing Work*
+<h2 style="font-size:1.35em; margin-bottom:4px;">Cornell University</h2>
+
+<p style="margin:0;">
+  <strong>Graduate Research Assistant</strong>, supervised by Dr. Lirong Xiang<br>
+  Ithaca, NY, USA<br>
+  Since Jan. 2026
+</p>
+
+<p style="margin-top:18px;">
+  <strong>Vision-Guided Precision Weed Spraying Using a Heterogeneous Leg–Arm Hexapod Robot</strong><br>
+  <em>Ongoing Work</em>
+</p>
 
 <!--
-- Led the mechanical design of a compact heterogeneous 5-DOF leg–arm hybrid limb integrated with a custom-built hexapod robot platform
-- Developed nozzle accuracy calibration, straight-jet spray modeling, and leg–arm control strategies for precision weed spraying
-- Currently leading experimental validation and data collection to evaluate spray accuracy and chemical-use reduction
+<ul>
+  <li>Led the mechanical design of a compact heterogeneous 5-DOF leg–arm hybrid limb integrated with a custom-built hexapod robot platform</li>
+  <li>Developed nozzle accuracy calibration, straight-jet spray modeling, and leg–arm control strategies for precision weed spraying</li>
+  <li>Currently leading experimental validation and data collection to evaluate spray accuracy and chemical-use reduction</li>
+</ul>
 -->
 
-### North Carolina State University  
-**Graduate Research Assistant**, supervised by Dr. Wenqiao Yuan  
-Raleigh, NC, USA  
-Jul. 2025 – Jan. 2026
+</div>
 
-**Mushroom Growth Monitoring and 3D Perception**
+<div style="border-top:1px solid #ddd; padding-top:18px; margin-top:24px;">
 
-- Contributed to mushroom growth monitoring and 3D perception research
-- Led hardware design, system assembly, and hardware debugging for imaging and robotic sensing setups
+<h2 style="font-size:1.35em; margin-bottom:4px;">North Carolina State University</h2>
 
-### North Carolina State University  
-**Graduate Research Assistant**, supervised by Dr. Lirong Xiang  
-Raleigh, NC, USA  
-Aug. 2023 – Jul. 2025
+<p style="margin:0;">
+  <strong>Graduate Research Assistant</strong>, supervised by Dr. Wenqiao Yuan<br>
+  Raleigh, NC, USA<br>
+  Jul. 2025 – Jan. 2026
+</p>
 
-**Navigating Cluttered Vine Crop Fields with an Adjustable-Clearance Hexapod Robot and Crop-Aware Navigation**
+<p style="margin-top:18px;">
+  <strong>Mushroom Growth Monitoring and 3D Perception</strong>
+</p>
 
-- Led the redesign and upgrade of the previously developed hexapod robot into a 24-DOF adjustable-clearance platform with an expanded body-clearance range for crop-safe navigation
-- Developed a crop-aware navigation framework using U-Net semantic segmentation and MoGe-based elevation mapping, integrating clearance-aware path planning with foothold-level plant avoidance
-- Led greenhouse experiments and data analysis, achieving strong perception and navigation performance across different vegetation-density scenarios
+<ul>
+  <li>Contributed to mushroom growth monitoring and 3D perception research</li>
+  <li>Led hardware design, system assembly, and hardware debugging for imaging and robotic sensing setups</li>
+</ul>
 
-**Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Agricultural Field Scouting**
+</div>
 
-- Designed and built a lightweight bionic hexapod robot platform for agricultural field scouting, featuring adjustable body clearance and field-oriented sensing and control integration
-- Developed a terrain-adaptive gait strategy that switches between low-clearance marching and high-clearance step-over modes for obstacle crossing
-- Conducted robot simulation for terrain adaptability and stability evaluation, and collaborated with the team on field experiments and manuscript preparation
+<div style="border-top:1px solid #ddd; padding-top:18px; margin-top:24px;">
 
-## Publications
+<h2 style="font-size:1.35em; margin-bottom:4px;">North Carolina State University</h2>
+
+<p style="margin:0;">
+  <strong>Graduate Research Assistant</strong>, supervised by Dr. Lirong Xiang<br>
+  Raleigh, NC, USA<br>
+  Aug. 2023 – Jul. 2025
+</p>
+
+<p style="margin-top:18px;">
+  <strong>Navigating Cluttered Vine Crop Fields with an Adjustable-Clearance Hexapod Robot and Crop-Aware Navigation</strong>
+</p>
+
+<ul>
+  <li>Led the redesign and upgrade of the previously developed hexapod robot into a 24-DOF adjustable-clearance platform with an expanded body-clearance range for crop-safe navigation</li>
+  <li>Developed a crop-aware navigation framework using U-Net semantic segmentation and MoGe-based elevation mapping, integrating clearance-aware path planning with foothold-level plant avoidance</li>
+  <li>Led greenhouse experiments and data analysis, achieving strong perception and navigation performance across different vegetation-density scenarios</li>
+</ul>
+
+<p style="margin-top:18px;">
+  <strong>Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Agricultural Field Scouting</strong>
+</p>
+
+<ul>
+  <li>Designed and built a lightweight bionic hexapod robot platform for agricultural field scouting, featuring adjustable body clearance and field-oriented sensing and control integration</li>
+  <li>Developed a terrain-adaptive gait strategy that switches between low-clearance marching and high-clearance step-over modes for obstacle crossing</li>
+  <li>Conducted robot simulation for terrain adaptability and stability evaluation, and collaborated with the team on field experiments and manuscript preparation</li>
+</ul>
+
+</div>
 
 ### Published Papers
 

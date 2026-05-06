@@ -22,9 +22,9 @@ As part of a rowing team, I won a national championship title. Rowing is a sport
 
 I enjoy designing, building, and flying model aircraft. This hobby connects naturally with my interests in mechanical design, control, and aerodynamics.
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:16px;">
-  <img src="/images/plane1.jpg" alt="Model aircraft wooden frame" style="width:100%; border-radius:10px;">
-  <img src="/images/plane2.jpg" alt="Model aircraft CAD frame" style="width:100%; border-radius:10px;">
-  <img src="/images/plane3.jpg" alt="Model aircraft design drawing" style="width:100%; border-radius:10px;">
-  <img src="/images/plane4.jpg" alt="Model aircraft assembly" style="width:100%; border-radius:10px;">
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-top:16px;">
+  <img src="/images/plane1.jpg" alt="Model aircraft frame" style="width:100%; height:240px; object-fit:cover; border-radius:10px;">
+  <img src="/images/plane2.jpg" alt="Model aircraft assembly" style="width:100%; height:240px; object-fit:cover; border-radius:10px;">
+  <img src="/images/plane3.jpg" alt="Model aircraft CAD design" style="width:100%; height:240px; object-fit:cover; border-radius:10px;">
+  <img src="/images/plane4.jpg" alt="Model aircraft parts layout" style="width:100%; height:240px; object-fit:cover; border-radius:10px;">
 </div>

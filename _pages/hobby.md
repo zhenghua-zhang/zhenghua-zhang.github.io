@@ -27,7 +27,7 @@ As part of the rowing team, I won a national championship title.
 During my undergraduate studies, I was deeply interested in model aircraft design and fabrication. As a team leader, I led the design, structural fabrication, assembly, and flight testing of a Boeing 737-800 model aircraft.
 
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:10px; margin-top:18px;">
-  <iframe src="https://www.youtube.com/embed/EWljKWPqlsA"
+  <iframe src="[https://www.youtube.com/embed/EWljKWPqlsA](https://www.youtube.com/watch?v=EWIjKWPqlsA)"
           title="Boeing 737-800 model aircraft build and flight test"
           style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

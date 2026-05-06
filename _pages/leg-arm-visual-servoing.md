@@ -20,28 +20,17 @@ This ongoing project explores a heterogeneous hexapod robot with a 5Ã—4-DOF + 1Ã
 
 The key idea is to redesign one leg of the hexapod as a 5-DOF leg-arm hybrid limb. During locomotion, the hybrid limb participates in the walking gait as a support leg. During task execution, it is reconfigured for precision manipulation, allowing the robot to aim a nozzle at nearby weed targets.
 
+A stereo camera is mounted near the hybrid limb end-effector to localize targets relative to the robot. In the current stage, visual markers are used as synthetic weed targets to evaluate the perception-guided targeting pipeline before deployment with real weed detection.
+
 <img src="/images/heterogeneous_hexapod_design.jpg" alt="Design of the heterogeneous hexapod robot and 5-DOF leg-arm hybrid limb" style="width:100%; max-width:850px; border-radius:10px;">
 
 This design allows the robot to:
 
 - Maintain legged locomotion with a heterogeneous limb configuration
 - Use the hybrid limb for precise end-effector positioning
+- Integrate stereo sensing near the end-effector for target localization
 - Combine locomotion, perception, and manipulation in a single field robot
 - Perform local intervention tasks after navigation
-
-## Stereo Vision and Target Localization
-
-A stereo camera is mounted near the leg-arm end-effector to localize targets relative to the robot. In current experiments, AprilTags are used as synthetic weed targets to evaluate the visual targeting pipeline before deploying the system on real weed detection.
-
-The perception pipeline uses stereo depth and image features to estimate the target location and provide visual feedback for end-effector aiming.
-
-## Two-Stage Closed-Loop Aiming
-
-A major challenge in this system is that precise calibration alone is not sufficient. The robot contains multiple servo joints, accumulated joint backlash, and hand-eye calibration residuals. Instead of relying entirely on perfect extrinsic calibration, I developed a two-stage aiming strategy that combines model-based positioning with visual feedback.
-
-In the first stage, a 5-DOF inverse kinematics solver moves the hybrid limb to a coarse aiming pose. In the second stage, image-based visual servoing is used to reduce the remaining image-plane error. This structure allows the system to tolerate mechanical imprecision and refine the final aim through closed-loop correction.
-
-<img src="/images/ibvs_convergence.jpg" alt="Closed-loop visual servoing convergence" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Depth-Conditioned Reticle Calibration
 
@@ -50,6 +39,14 @@ To handle depth-dependent aiming offsets, I measured where the spray actually la
 <img src="/images/reticle_calibration.jpg" alt="Depth-conditioned reticle calibration" style="width:100%; max-width:850px; border-radius:10px;">
 
 This approach is designed to make the system robust to small mechanical shifts, calibration residuals, and joint backlash.
+
+## Two-Stage Closed-Loop Aiming
+
+A major challenge in this system is that precise calibration alone is not sufficient. The robot contains multiple servo joints, accumulated joint backlash, and hand-eye calibration residuals. Instead of relying entirely on perfect extrinsic calibration, I developed a two-stage aiming strategy that combines model-based positioning with visual feedback.
+
+In the first stage, a 5-DOF inverse kinematics solver moves the hybrid limb to a coarse aiming pose. In the second stage, image-based visual servoing is used to reduce the remaining image-plane error. This structure allows the system to tolerate mechanical imprecision and refine the final aim through closed-loop correction.
+
+<img src="/images/ibvs_convergence.jpg" alt="Closed-loop visual servoing convergence" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Technical Highlights
 

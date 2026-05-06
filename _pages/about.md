@@ -73,13 +73,14 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 ## Selected Publications and Manuscripts
 
 - **Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting**  
-  Zhenghua Zhang, Weilong He, Fan Wu, Lina Maria Quesada-Ocampo, Lirong Xiang  
+  **Zhenghua Zhang**, Weilong He, Fan Wu, Lina Maria Quesada-Ocampo, Lirong Xiang\*  
   *Frontiers in Robotics and AI*, 2024. [Paper](https://doi.org/10.3389/frobt.2024.1426269)
 
 - **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
-  Zhenghua Zhang, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang  
+  **Zhenghua Zhang**, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang\*  
   Manuscript in revision for resubmission to *IEEE Robotics and Automation Letters (RA-L)*.
 
 - **Navigating Cluttered Vine Crop Fields with an Adjustable Clearance Hexapod Robot and Energy-Aware Path Planning**  
-  Zhenghua Zhang, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang  
+  **Zhenghua Zhang**, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang\*  
   Under review at *Journal of Field Robotics*.
+\* Corresponding author

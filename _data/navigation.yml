@@ -6,7 +6,7 @@ main:
     url: /extension/
 
   - title: "CV"
-    url: /files/CV_Zhenghua_Zhang.pdf
+    url: /cv/
 
   - title: "Hobby"
     url: /hobby/

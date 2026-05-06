@@ -14,8 +14,6 @@ My Ph.D. work centers on the design, construction, and navigation of a hexapod r
 I am currently developing a leg-arm hybrid design that enables a legged robot to perform precision manipulation while maintaining stable locomotion.
 
 
-Selected Projects
-======
 ## Selected Projects
 
 <a href="/projects/bionic-hexapod/">
@@ -23,7 +21,7 @@ Selected Projects
 </a>
 
 <h3 style="margin-bottom:8px;">
-  <a href="/projects/bionic-hexapod/" style="font-weight:700; text-decoration:none;">
+  <a href="/projects/bionic-hexapod/" style="font-weight:700;">
     Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
   </a>
 </h3>
@@ -34,7 +32,8 @@ Selected Projects
   I designed and built a bionic hexapod robot with adaptive gait control and adjustable body clearance for navigating complex agricultural field environments.
 </p>
 
-```html
+<br>
+
 <a href="/projects/crop-aware-navigation/">
   <img src="/images/crop_aware_navigation.jpg" alt="Crop-aware navigation project" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
 </a>

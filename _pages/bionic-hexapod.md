@@ -8,9 +8,9 @@ author_profile: true
 
 ## Overview
 
-This project focuses on the development of a bionic hexapod robot for agricultural field scouting. I designed and built the robot platform from the ground up, including its mechanical structure, leg configuration, sensing layout, and control system integration.
+The starting point of this project was a practical field problem: many vine crops grow close to the ground, with vines, leaves, and fruits spreading across the soil surface. In such environments, wheeled and tracked robots may damage plants because their wheels or tracks remain in continuous contact with the ground. They also have limited flexibility when moving through narrow, cluttered, or uneven field spaces.
 
-The robot is designed for complex agricultural environments where uneven terrain, dense vegetation, and field obstacles make conventional wheeled platforms less suitable. By using six articulated legs, adaptive gait control, and adjustable body clearance, the robot can traverse uneven terrain and step over obstacles while maintaining stable locomotion.
+This project explores a different approach: using a legged robot to move through agricultural fields more carefully. I designed and built a bionic hexapod robot that can step over low obstacles, adjust its body clearance, and maintain stable locomotion on uneven terrain. The six-legged configuration provides more support points than quadruped robots, making it better suited for slow, stable, and crop-sensitive navigation in complex field environments.
 
 ## Robot Platform Design
 

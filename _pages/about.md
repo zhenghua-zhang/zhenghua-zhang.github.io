@@ -76,6 +76,10 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
   **Zhenghua Zhang**, Weilong He, Fan Wu, Lina Maria Quesada-Ocampo, Lirong Xiang\*  
   *Frontiers in Robotics and AI*, 2024. [Paper](https://doi.org/10.3389/frobt.2024.1426269)
 
+- **High-Throughput Robotic Phenotyping for Quantifying Tomato Disease Severity Enabled by Synthetic Data and Domain-Adaptive Semantic Segmentation**  
+  Weilong He, Xingjian Li, **Zhenghua Zhang**, Yuxi Chen, Jianbo Zhang, Dilip R. Panthee, Inga Meadows, Lirong Xiang\*  
+  *Journal of Field Robotics*, 2025. [Paper](https://doi.org/10.1002/rob.22490)
+  
 - **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
   **Zhenghua Zhang**, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang\*  
   Manuscript in revision for resubmission to *IEEE Robotics and Automation Letters (RA-L)*.

@@ -55,7 +55,7 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
 
 
 <a href="/projects/leg-arm-visual-servoing/">
-  <img src="/images/leg_arm_visual_servoing.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
+  <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
 </a>
 
 <h3 style="margin-bottom:8px;">

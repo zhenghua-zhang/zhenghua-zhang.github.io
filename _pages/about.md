@@ -64,11 +64,13 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
   </a>
 </h3>
 
+<!--
 <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
 <p>
   I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-arm hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
 </p>
+-->
 
 ## Selected Publications and Manuscripts
 

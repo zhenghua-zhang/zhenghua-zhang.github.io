@@ -40,11 +40,13 @@ Since Jan. 2026
 
 **Vision-Guided Precision Weed Spraying Using a Heterogeneous Leg–Arm Hexapod Robot**  
 *Ongoing Work*
+
 <!--
 - Led the mechanical design of a compact heterogeneous 5-DOF leg–arm hybrid limb integrated with a custom-built hexapod robot platform
 - Developed nozzle accuracy calibration, straight-jet spray modeling, and leg–arm control strategies for precision weed spraying
 - Currently leading experimental validation and data collection to evaluate spray accuracy and chemical-use reduction
 -->
+
 ### North Carolina State University  
 **Graduate Research Assistant**, supervised by Dr. Wenqiao Yuan  
 Raleigh, NC, USA  

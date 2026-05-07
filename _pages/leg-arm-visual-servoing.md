@@ -2,6 +2,7 @@
 title: "Heterogeneous Hexapod Robot with a 5-DOF Leg-Arm Hybrid Limb"
 permalink: /projects/leg-arm-visual-servoing/
 author_profile: true
+published: false
 ---
 
 <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:850px; border-radius:10px;">

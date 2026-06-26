@@ -2,7 +2,7 @@
 title: "Leg-Manipulator for Precision Weed Spraying"
 permalink: /projects/Leg-Manipulator/
 author_profile: true
-published: false
+published: true
 ---
 
 <img src="/images/leg_arm2.jpg" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:850px; border-radius:10px;">

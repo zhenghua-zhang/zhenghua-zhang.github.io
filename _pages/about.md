@@ -67,7 +67,7 @@ My Ph.D. work centers on hexapod robot design and crop-aware navigation in vine 
   </a>
 
   <h3 style="margin-bottom:8px;">
-    <a href="/projects/leg-arm-visual-servoing/" style="font-weight:700;">
+    <a href="/projects/leg-manipulator/" style="font-weight:700;">
       Design and Evaluation of a Leg-Manipulator for Ultra-Precision Spot Spraying of Weed Seedlings
     </a>
   </h3>

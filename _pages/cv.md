@@ -20,12 +20,10 @@ A selected academic CV is available here: [Download CV](/files/CV_Public.pdf).
 - **North Carolina State University**, Raleigh, NC, United States  
   Ph.D. Student in Biological and Agricultural Engineering  
   Aug. 2023 – Jan. 2026  
-  GPA: 3.68/4.0
 
 - **Xi’an Jiaotong University**, Xi’an, Shaanxi, China  
   B.E. in Flight Vehicle Design and Engineering  
   Sep. 2019 – Jun. 2023  
-  GPA: 3.47/4.0, Rank: 5/62
 
 ## Research Interests
 

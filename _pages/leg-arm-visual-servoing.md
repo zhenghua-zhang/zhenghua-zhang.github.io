@@ -1,6 +1,6 @@
 ---
-title: "Leg-Manipulator for Precision Weed Spraying"
-permalink: /projects/Leg-Manipulator/
+title: "Design and Evaluation of a Leg-Manipulator for Ultra-Precision Spot Spraying of Weed Seedlings"
+permalink: /projects/leg-manipulator/
 author_profile: true
 published: true
 ---

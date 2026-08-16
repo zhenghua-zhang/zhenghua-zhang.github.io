@@ -36,7 +36,7 @@ My work has been aimed at developing a legged robot operate autonomously in crop
 <div style="border:1px solid #e0e0e0; border-radius:12px; padding:16px; margin:24px 0 32px 0;">
 
   <a href="/projects/Aghexanav/">
-    <img src="/images/ral.jpg" alt="Aghexanav" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
+    <img src="/images/Aghexanav.jpg" alt="Aghexanav" style="width:100%; max-width:650px; border-radius:8px; margin-bottom:14px;">
   </a>
 
   <h3 style="margin-bottom:8px;">

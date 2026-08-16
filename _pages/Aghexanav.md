@@ -8,15 +8,19 @@ author_profile: true
 
 ## Overview
 
-The starting point of this project was a practical field problem: many vine crops grow close to the ground, with vines, leaves, and fruits spreading across the soil surface. In such environments, wheeled and tracked robots may damage plants because their wheels or tracks remain in continuous contact with the ground. They also have limited flexibility when moving through narrow, cluttered, or uneven field spaces.
+After building the hexapod platform, the next question was how to get it to a target location in a real field. Conventional planners represent the robot as a body footprint and keep that footprint clear of obstacles. However, this assumption doesn't fits a legged robot in vine crops. Contact happens at discrete feet rather than continuously, and the region beneath the body does not need to be clear at all, since a vine can pass through the gap between the two rows of legs while the feet land on either side. Planning under the footprint assumption therefore produces detours that are not necessary and damage estimates that do not match what happens on the ground.
 
-This project explores a different approach: using a legged robot to move through agricultural fields more carefully. I designed and built a bionic hexapod robot that can step over low obstacles, adjust its body clearance, and maintain stable locomotion on uneven terrain. The six-legged configuration provides more support points than quadruped robots, making it better suited for slow, stable, and crop-sensitive navigation in complex field environments.
+We therefore developed AgHexaNav, a contact-aware planning framework built on a dual-corridor contact model, which represents ground contact as the two strips where the feet actually land and treats body heading as a decision variable. On this model, two modules handle damage at different levels: a crop damage cost that steers the corridors away from fruit during path planning, and a foothold refinement that resolves the contacts a body path cannot foresee. Together they let the robot straddle a vine row where alignment allows and step over it where it does not, keeping fruit contact near zero without giving up path quality.
 
-## Robot Platform Design
+## Approach
 
-The robot uses a lightweight modular body structure and six 3-DOF legs. Each leg is actuated by three servos corresponding to hip, knee, and ankle motions. The curved leg structure increases obstacle-crossing capability while keeping the robot compact and lightweight.
+We represent ground contact as two foothold corridors separated by a straddle gap, rather than a single body footprint. Because the corridors rotate with the robot, body heading becomes a decision variable, and its alignment with the vine direction determines whether the robot can straddle a row or must step over it. Two modules are built on this representation.
 
-<img src="/images/robot_platform.jpg" alt="Hexapod robot platform" style="width:100%; max-width:850px; border-radius:10px;">
+**Crop damage cost.** At the body level, a cost term steers the two corridors away from fruit, weighting fruit above foliage. It attaches to edge evaluation, so it works with A*, PRM, and Informed RRT* without modifying the planner itself.
+
+**Foothold refinement.** At the leg level, each foot is adjusted within its reachable disk to leave any remaining contact, selected on reachability, stability, and minimal displacement, with a three tier fallback for the case where no admissible foothold exists.
+
+<img src="/images/pipeline.png" alt="pipeline" style="width:100%; max-width:850px; border-radius:10px;">
 
 Key design features include:
 

@@ -1,10 +1,10 @@
 ---
-title: "Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting"
-permalink: /projects/bionic-hexapod/
+title: "AgHexaNav: Contact-Aware Planning for Low-Damage Navigation of Legged Robots in Vine Crops"
+permalink: /projects/Aghexanav/
 author_profile: true
 ---
 
-<img src="/images/bionic_hexapod.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:850px; border-radius:10px;">
+<img src="/images/Aghexanav.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Overview
 

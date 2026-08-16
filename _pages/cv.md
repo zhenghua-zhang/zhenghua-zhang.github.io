@@ -14,11 +14,11 @@ A selected academic CV is available here: [Download CV](/files/CV_Public.pdf).
 ## Education
 
 - **Cornell University**, Ithaca, NY, United States  
-  Ph.D. Student in Biological and Environmental Engineering  
+  M.S. Student in Biological and Environmental Engineering  
   Since Jan. 2026
 
 - **North Carolina State University**, Raleigh, NC, United States  
-  Ph.D. Student in Biological and Agricultural Engineering  
+  M.S. Student in Biological and Agricultural Engineering  
   Aug. 2023 – Jan. 2026  
 
 - **Xi’an Jiaotong University**, Xi’an, Shaanxi, China  
@@ -27,7 +27,8 @@ A selected academic CV is available here: [Download CV](/files/CV_Public.pdf).
 
 ## Research Interests
 
-My research focuses on the mechanical design, motion control, and navigation of legged robots, with an emphasis on robotic systems operating in complex and unstructured field environments. I am particularly interested in bio-inspired hexapod robots, locomotion planning, robot perception, and locomotion-manipulation integration for field robotics.
+I am interested in legged robots that do useful work outdoors, not only walk there. Two questions drive my current work: how far a single limb can be shared between locomotion and manipulation before a dedicated arm becomes the better choice, and how a robot can hold both
+its balance and its end-effector accuracy on unstructured terrain, where the base that the manipulation depends on is the thing that keeps moving.
 
 ## Selected Research Experience
 

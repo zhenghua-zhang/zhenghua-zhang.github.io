@@ -23,7 +23,7 @@ author_profile: true
 
 ## Manuscripts Under Review / In Revision
 
-- **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
+- **AgHexaNav: Contact-Aware Planning for Low-Damage Navigation of Legged Robots in Vine Crops**  
   **Zhenghua Zhang**, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang\*  
   Manuscript in revision for resubmission to *IEEE Robotics and Automation Letters (RA-L)*.
 

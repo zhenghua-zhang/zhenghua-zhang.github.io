@@ -9,51 +9,42 @@ published: true
 
 ## Overview
 
-After developing hexapod robots for field navigation, the next challenge is enabling a legged robot to perform useful physical tasks after reaching a target location. In field environments, this requires more than mobility: the robot must perceive a target, position an end-effector, and interact with the environment while maintaining stable locomotion.
+After building hexapod robots that can navigate a field, the next question was what the robot does once it arrives. Weed control works best at the seedling stage, aimed at the growing point of each weed, which means placing a microliter dose within a few millimeters of a target that is small, low to the ground, and often partly hidden. Existing weeding sprayers do not reach this scale in the field.
 
-This ongoing project explores a heterogeneous hexapod robot with a 5×4-DOF + 1×5-DOF limb configuration. The robot retains five standard 4-DOF locomotion legs, while one limb is redesigned as a 5-DOF leg-manipulator hybrid limb. During walking, the hybrid limb functions as a locomotion leg; during task execution, it transitions into a manipulation mode for perception-guided field intervention.
+The usual way to give a legged robot manipulation is to mount an arm on its back, which costs payload and raises the center of mass, the opposite of what is needed for inspecting seedlings near the soil. We instead reconfigured one of the six walking legs into the sprayer itself, a composite limb that walks with the other legs and switches to a precision spraying mode when a weed is detected. The harder problem turned out to be aiming rather than mechanism: a liquid jet is beyond control once it leaves the nozzle, so conventional hand-eye calibration does not apply, and the landing point is shifted by gravity, drag, backlash, and wind.
 
 <div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
   <strong>Note:</strong> This project is ongoing. This page provides only a high-level summary of the system concept and hardware design. Additional technical details will be added after the work is published.
 </div>
 
-## Leg-manipulator Hybrid Limb Design and Stereo Sensing
+## Leg-manipulator design
 
-The key idea is to redesign one leg of the hexapod as a 5-DOF leg-manipulator hybrid limb. During locomotion, the hybrid limb participates in the walking gait as a support leg. During task execution, it is reconfigured for precision manipulation, allowing the robot to perform localized field operations.
+Spraying needs control of nozzle position plus pitch and yaw, so five degrees of freedom is the minimum without redundancy. The limb replaces the original 4-DOF walking leg with a hip-yaw joint, a hip-pitch joint, a knee-pitch joint, and a two-axis wrist.
 
-A stereo camera is mounted near the hybrid limb end-effector to support target localization and perception-guided manipulation.
+The foot doubles as the end effector. A solenoid valve and nozzle sit coaxially inside the support tube behind two spring-loaded caps, which stay shut during walking to shield the nozzle from soil and open when a linear solenoid pushes the valve forward to spray. A stereo camera sits behind and above the nozzle with its optical axis parallel to the spray direction.
 
-<img src="/images/heterogeneous_hexapod_design.jpg" alt="Design of the heterogeneous hexapod robot, hybrid limb, nozzle, and stereo camera" style="width:100%; max-width:850px; border-radius:10px;">
+<img src="/images/leg_noozle.png" alt="Design of the heterogeneous hexapod robot, hybrid limb, nozzle, and stereo camera" style="width:100%; max-width:850px; border-radius:10px;">
 
-This design allows the robot to:
+## Two-stage targeting
 
-- Maintain legged locomotion with a heterogeneous limb configuration
-- Use the hybrid limb for localized manipulation tasks
-- Integrate stereo sensing near the end-effector
-- Combine locomotion, perception, and manipulation in a single field robot
+**Ballistic inverse kinematics** provides the coarse aim, solving for a joint configuration whose spray ray passes through the target. Aiming constrains only two of five degrees of freedom, so the redundancy is resolved with a stand-off barrier and a warm start from the observation pose.
 
-## Heterogeneous Gait Reconstruction
+**Aim-point lookup and visual servoing** close the loop. At a given depth the jet strikes a fixed pixel regardless of joint configuration, so the ballistic bias is absorbed by a depth-conditioned lookup rather than modeled. Image-Based Visual Servoing (IBVS) then drives the target onto that pixel, actuating only two joints, since moving the proximal ones would displace the camera itself.
 
-Replacing one standard leg with a 5-DOF leg-manipulator hybrid limb changes the robot morphology and requires gait reconstruction. The robot must maintain stable locomotion even when one limb has different kinematic properties and may switch between support and manipulation roles.
+## Experiments
 
-My current work focuses on reconstructing the gait strategy for this asymmetric configuration, including support redistribution, stable locomotion with a heterogeneous limb, and coordination between locomotion and task-execution phases.
+Indoors, the two stages reduced the image error by well over an order of magnitude, with the dispensed points scattering around the target without systematic offset, confirming the lookup removes the ballistic bias rather than redirecting it.
 
-## Technical Highlights
+<img src="/images/fig_indoor.png" alt="indoor_test" style="width:100%; max-width:850px; border-radius:10px;">
 
-- Heterogeneous hexapod robot with a 5-DOF leg-manipulator hybrid limb
-- Locomotion-manipulation integration for field robotics
-- Gait reconstruction for asymmetric legged locomotion
-- Stereo sensing for perception-guided field intervention
-- Mechanical integration of a multifunctional limb, nozzle, and camera system
+In the field, the robot walked to a standing position near each target and ran the same pipeline on natural vegetation under uncontrolled light and wind, reaching the intended target in every trial at millimeter scale.
+
+<img src="/images/grass.jpg" alt="field_test" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## My Contributions
 
-- Led the 5-DOF leg-manipulator hybrid limb design and mentored an undergraduate student in mechanical design and prototyping
-- Developed the mechanical integration between the hybrid limb, nozzle, and stereo camera
-- Reconstructed the gait strategy for a heterogeneous hexapod with asymmetric limb functions
-- Developed kinematic modeling and precision control methods for the leg-manipulator hybrid limb
-- Built the hardware system and am currently conducting experimental validation
-
-## Status
-
-This project is currently in progress. I am working on mechanical refinement, heterogeneous gait reconstruction, stereo sensing integration, and experimental validation of the leg-manipulator hybrid system.
+- Designed the 5-DOF leg-manipulator and its foot module, and mentored an undergraduate student on mechanical design and prototyping
+- Formulated the ballistic inverse kinematics and implemented the solver
+- Developed the depth-conditioned aim-point lookup and the visual servoing controller
+- Built the Hexa-Weeder platform, including the spraying system, onboard computing, and stereo sensing
+- Ran the indoor validation and field trials

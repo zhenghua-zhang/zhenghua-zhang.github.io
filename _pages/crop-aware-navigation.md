@@ -12,11 +12,9 @@ author_profile: true
 
 ## Overview
 
-After developing the first bionic hexapod robot platform, we began to focus on the next challenge: how to enable the robot to autonomously navigate to a target location in dense agricultural fields without damaging surrounding plants. Through earlier field tests, we also found that the previous 3-DOF leg design had limitations in body stability, joint loading, and foothold flexibility.
+Earlier field tests had exposed limits in the original 3-DOF leg design, which constrained body stability, joint loading, and the range over which footholds could be adjusted. This project rebuilds the platform around an adjustable-clearance structure and a revised leg configuration, then develops a complete navigation stack on top of it. A UAV surveys the field in advance, and semantic segmentation combined with height estimation turns the imagery into a map that records both what is on the ground and how tall it is. Path planning uses this map to trade route length against the energy cost of raising body clearance, and a foothold-level refinement adjusts individual foot placements before each step. The full system was evaluated in cucumber fields.
 
-This project addresses these issues by upgrading the robot with an adjustable-clearance structure and an improved leg configuration. Based on this upgraded platform, I developed a crop-aware navigation framework that integrates UAV-based aerial perception, semantic mapping, adaptive-clearance planning, and foothold-level motion refinement for safer navigation in cluttered vine crop fields.
-
-## System Overview
+## Pipeline
 
 The system integrates UAV-based aerial perception with hexapod robot navigation. A UAV captures top-view RGB images of the field, which are processed to extract semantic and geometric information. The resulting map representation provides the planner with both vegetation distribution and terrain structure.
 

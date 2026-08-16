@@ -4,7 +4,7 @@ permalink: /projects/Aghexanav/
 author_profile: true
 ---
 
-<img src="/images/Aghexanav.jpg" alt="Bionic hexapod robot" style="width:100%; max-width:850px; border-radius:10px;">
+<img src="/images/Aghexanav.jpg" alt="Aghexanav" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Overview
 

@@ -91,7 +91,7 @@ My work has been aimed at developing a legged robot operate autonomously in crop
   <hr style="border:0; border-top:1px solid #e0e0e0; margin:8px 0 18px 0;">
 
   <p>
-    I am developing a heterogeneous hexapod robot that integrates stable legged locomotion, a 5-DOF leg-manipulator hybrid limb, stereo vision, and closed-loop control for precision field manipulation.
+    We reconfigured one walking leg of a hexapod robot into a 5-DOF leg-manipulator, enabling millimeter-scale spot spraying of weed seedlings without adding a dedicated arm.
   </p>
 
 </div>
@@ -113,5 +113,8 @@ My work has been aimed at developing a legged robot operate autonomously in crop
 - **Navigating Cluttered Vine Crop Fields with an Adjustable Clearance Hexapod Robot and Energy-Aware Path Planning**  
   **Zhenghua Zhang**, Pengyao Xie, Fan Wu, Weilong He, Shengdao Du, Lirong Xiang\*  
   Under review at *Journal of Field Robotics*.
-
+  
+- **Design and Evaluation of a Leg-Manipulator for Ultra-Precision Spot Spraying of Weed **  
+  **Zhenghua Zhang**, Pengyu Wang, Kenneth Chenango Kniffin, Pengyao Xie, Lirong Xiang\*  
+  Under review at *IEEE Transactions on Automation Science and Engineering (T-ASE)*.
 \* Corresponding author

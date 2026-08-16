@@ -23,7 +23,7 @@ Spraying needs control of nozzle position plus pitch and yaw, so five degrees of
 
 The foot doubles as the end effector. A solenoid valve and nozzle sit coaxially inside the support tube behind two spring-loaded caps, which stay shut during walking to shield the nozzle from soil and open when a linear solenoid pushes the valve forward to spray. A stereo camera sits behind and above the nozzle with its optical axis parallel to the spray direction.
 
-<img src="/images/leg_noozle.png" alt="Design of the heterogeneous hexapod robot, hybrid limb, nozzle, and stereo camera" style="width:100%; max-width:850px; border-radius:10px;">
+<img src="/images/leg_nozzle.png" alt="Design of the heterogeneous hexapod robot, hybrid limb, nozzle, and stereo camera" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Two-stage targeting
 

@@ -106,7 +106,7 @@ My work has been aimed at developing a legged robot operate autonomously in crop
   Weilong He, Xingjian Li, **Zhenghua Zhang**, Yuxi Chen, Jianbo Zhang, Dilip R. Panthee, Inga Meadows, Lirong Xiang\*  
   *Journal of Field Robotics*, 2025. [Paper](https://doi.org/10.1002/rob.22490)
   
-- **AgHexaNav: A Hierarchical Navigation Framework for Hexapod Robots in Vegetation-Dense Agricultural Environments**  
+- **AgHexaNav: Contact-Aware Planning for Low-Damage Navigation of Legged Robots in Vine Crops**  
   **Zhenghua Zhang**, Qihang Li, Prem Raj, Weilong He, Shengdao Du, Peng Gao, Lirong Xiang\*  
   Manuscript in revision for resubmission to *IEEE Robotics and Automation Letters (RA-L)*.
 

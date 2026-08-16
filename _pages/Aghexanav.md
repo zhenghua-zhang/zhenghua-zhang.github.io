@@ -6,6 +6,10 @@ author_profile: true
 
 <img src="/images/Aghexanav.jpg" alt="Aghexanav" style="width:100%; max-width:850px; border-radius:10px;">
 
+<div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
+  <strong>Note:</strong> Since this work is currently under review, only a high-level summary of the planning and foothold refinement framework is provided here. Detailed algorithmic implementation, quantitative results, and full experimental analysis will be added after publication.
+</div>
+
 ## Overview
 
 After building the hexapod platform, the next question was how to get it to a target location in a real field. Conventional planners represent the robot as a body footprint and keep that footprint clear of obstacles. However, this assumption doesn't fits a legged robot in vine crops. Contact happens at discrete feet rather than continuously, and the region beneath the body does not need to be clear at all, since a vine can pass through the gap between the two rows of legs while the feet land on either side. Planning under the footprint assumption therefore produces detours that are not necessary and damage estimates that do not match what happens on the ground.

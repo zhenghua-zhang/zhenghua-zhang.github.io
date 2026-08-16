@@ -117,4 +117,5 @@ My work has been aimed at developing a legged robot operate autonomously in crop
 - **Design and Evaluation of a Leg-Manipulator for Ultra-Precision Spot Spraying of Weed **  
   **Zhenghua Zhang**, Pengyu Wang, Kenneth Chenango Kniffin, Pengyao Xie, Lirong Xiang\*  
   Under review at *IEEE Transactions on Automation Science and Engineering (T-ASE)*.
+  
 \* Corresponding author

@@ -140,6 +140,10 @@ its balance and its end-effector accuracy on unstructured terrain, where the bas
   Fan Wu, **Zhenghua Zhang**, Wenqiao Yuan\*  
   In Submission to *IEEE Robotics and Automation Letters (RA-L)*.
 
+- **Design and Evaluation of a Leg-Manipulator for Ultra-Precision Spot Spraying of Weed **  
+  **Zhenghua Zhang**, Pengyu Wang, Kenneth Chenango Kniffin, Pengyao Xie, Lirong Xiang\*  
+  Under review at *IEEE Transactions on Automation Science and Engineering (T-ASE)*.
+
 \* Corresponding author
 
 ## Extension and Mentoring

@@ -7,61 +7,61 @@ author_profile: true
 <meta name="robots" content="noindex, nofollow">
 
 <style>
-  #protected-content {
-    display: none;
-  }
+#protected-content {
+  display: none !important;
+}
 
-  #password-screen {
-    max-width: 430px;
-    margin: 70px auto;
-    padding: 30px;
-    text-align: center;
-    border: 1px solid #e1e4e8;
-    border-radius: 10px;
-    background: #f8f9fa;
-  }
+#password-screen {
+  max-width: 430px;
+  margin: 70px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
 
-  #password-screen h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
+#password-screen h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 
-  #password-screen p {
-    color: #666;
-    margin-bottom: 20px;
-  }
+#password-screen p {
+  color: #666;
+  margin-bottom: 20px;
+}
 
-  #password-input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 11px 12px;
-    margin-bottom: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-  }
+#password-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
 
-  #password-button {
-    width: 100%;
-    padding: 11px 12px;
-    border: none;
-    border-radius: 6px;
-    background: #4da3c7;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
+#password-button {
+  width: 100%;
+  padding: 11px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4da3c7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  #password-button:hover {
-    opacity: 0.9;
-  }
+#password-button:hover {
+  opacity: 0.9;
+}
 
-  #password-error {
-    color: #c62828 !important;
-    margin-top: 12px;
-    margin-bottom: 0 !important;
-    display: none;
-  }
+#password-error {
+  display: none;
+  color: #c62828 !important;
+  margin-top: 12px;
+  margin-bottom: 0 !important;
+}
 </style>
 
 <div id="password-screen">
@@ -75,14 +75,16 @@ author_profile: true
     autocomplete="off"
   >
 
-  <button id="password-button" onclick="checkPassword()">
+  <button id="password-button">
     View Project
   </button>
 
-  <p id="password-error">Incorrect password. Please try again.</p>
+  <p id="password-error">
+    Incorrect password. Please try again.
+  </p>
 </div>
 
-<div id="protected-content">
+<div id="protected-content" markdown="1">
 
 <img src="/images/Aghexanav.jpg" alt="Aghexanav" style="width:100%; max-width:850px; border-radius:10px;">
 
@@ -129,29 +131,32 @@ Validated on a cucumber field with the hexapod platform, using UAV-derived seman
 </div>
 
 <script>
-function checkPassword() {
-  const password = document.getElementById("password-input").value;
+document.addEventListener("DOMContentLoaded", function () {
 
-  if (password === "201910") {
-    document.getElementById("password-screen").style.display = "none";
-    document.getElementById("protected-content").style.display = "block";
+  const passwordInput = document.getElementById("password-input");
+  const passwordButton = document.getElementById("password-button");
+  const passwordScreen = document.getElementById("password-screen");
+  const protectedContent = document.getElementById("protected-content");
+  const passwordError = document.getElementById("password-error");
 
-    sessionStorage.setItem("agHexaNavAccess", "granted");
-  } else {
-    document.getElementById("password-error").style.display = "block";
-    document.getElementById("password-input").value = "";
-    document.getElementById("password-input").focus();
+  function unlockPage() {
+    if (passwordInput.value === "201910") {
+      passwordScreen.style.display = "none";
+      protectedContent.style.setProperty("display", "block", "important");
+    } else {
+      passwordError.style.display = "block";
+      passwordInput.value = "";
+      passwordInput.focus();
+    }
   }
-}
 
-document.getElementById("password-input").addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    checkPassword();
-  }
+  passwordButton.addEventListener("click", unlockPage);
+
+  passwordInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+      unlockPage();
+    }
+  });
+
 });
-
-if (sessionStorage.getItem("agHexaNavAccess") === "granted") {
-  document.getElementById("password-screen").style.display = "none";
-  document.getElementById("protected-content").style.display = "block";
-}
 </script>

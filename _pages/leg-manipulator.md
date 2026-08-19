@@ -5,6 +5,88 @@ author_profile: true
 published: true
 ---
 
+<meta name="robots" content="noindex, nofollow">
+
+<style>
+#protected-content {
+  display: none !important;
+}
+
+#password-screen {
+  max-width: 430px;
+  margin: 70px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+#password-screen h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#password-screen p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#password-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#password-button {
+  width: 100%;
+  padding: 11px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4da3c7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#password-button:hover {
+  opacity: 0.9;
+}
+
+#password-error {
+  display: none;
+  color: #c62828 !important;
+  margin-top: 12px;
+  margin-bottom: 0 !important;
+}
+</style>
+
+<div id="password-screen">
+  <h2>Protected Project</h2>
+  <p>Please enter the password to view this project.</p>
+
+  <input
+    type="password"
+    id="password-input"
+    placeholder="Password"
+    autocomplete="off"
+  >
+
+  <button id="password-button">
+    View Project
+  </button>
+
+  <p id="password-error">
+    Incorrect password. Please try again.
+  </p>
+</div>
+
+<div id="protected-content" markdown="1">
+
 <img src="/images/system_overview1.png" alt="Heterogeneous hexapod robot with a 5-DOF leg-arm hybrid limb" style="width:100%; max-width:850px; border-radius:10px;">
 
 ## Overview
@@ -14,7 +96,7 @@ After building hexapod robots that can navigate a field, the next question was w
 The usual way to give a legged robot manipulation is to mount an arm on its back, which costs payload and raises the center of mass, the opposite of what is needed for inspecting seedlings near the soil. We instead reconfigured one of the six walking legs into the sprayer itself, a composite limb that walks with the other legs and switches to a precision spraying mode when a weed is detected. The harder problem turned out to be aiming rather than mechanism: a liquid jet is beyond control once it leaves the nozzle, so conventional hand-eye calibration does not apply, and the landing point is shifted by gravity, drag, backlash, and wind.
 
 <div style="background-color:#f6f8fa; border-left:4px solid #4da3c7; padding:12px 16px; margin:18px 0; border-radius:6px; color:#444;">
-  <strong>Note:</strong> This project is ongoing. This page provides only a high-level summary of the system concept and hardware design. Additional technical details will be added after the work is published.
+  <strong>Note:</strong> This page contains a selected overview of the project. Additional technical details will be provided after the work is published.
 </div>
 
 ## Leg-manipulator design
@@ -48,3 +130,36 @@ In the field, the robot walked to a standing position near each target and ran t
 - Developed the depth-conditioned aim-point lookup and the visual servoing controller
 - Built the Hexa-Weeder platform, including the spraying system, onboard computing, and stereo sensing
 - Ran the indoor validation and field trials
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const passwordInput = document.getElementById("password-input");
+  const passwordButton = document.getElementById("password-button");
+  const passwordScreen = document.getElementById("password-screen");
+  const protectedContent = document.getElementById("protected-content");
+  const passwordError = document.getElementById("password-error");
+
+  function unlockPage() {
+    if (passwordInput.value === "201910") {
+      passwordScreen.style.display = "none";
+      protectedContent.style.setProperty("display", "block", "important");
+    } else {
+      passwordError.style.display = "block";
+      passwordInput.value = "";
+      passwordInput.focus();
+    }
+  }
+
+  passwordButton.addEventListener("click", unlockPage);
+
+  passwordInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+      unlockPage();
+    }
+  });
+
+});
+</script>

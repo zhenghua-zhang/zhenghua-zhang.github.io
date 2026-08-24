@@ -40,6 +40,11 @@ published: true
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
+
+  color: #222 !important;
+  background-color: #fff !important;
+  caret-color: #222 !important;
+  -webkit-text-fill-color: #222 !important;
 }
 
 #password-button {

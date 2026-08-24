@@ -28,6 +28,9 @@ author_profile: true
 
 #password-screen p {
   color: #666;
+}
+
+#password-screen > p:first-of-type {
   margin-bottom: 20px;
 }
 
@@ -42,17 +45,30 @@ author_profile: true
 
   font-size: 16px;
 
-  /* Make password dots visible */
+  /* Keep password dots and cursor visible */
   color: #222 !important;
   background-color: #fff !important;
   caret-color: #222 !important;
   -webkit-text-fill-color: #222 !important;
 }
 
+#password-input::placeholder {
+  color: #999 !important;
+  -webkit-text-fill-color: #999 !important;
+  opacity: 1;
+}
+
 #password-input:focus {
   outline: none;
   border-color: #4da3c7;
   box-shadow: 0 0 0 2px rgba(77, 163, 199, 0.18);
+}
+
+#password-hint {
+  font-size: 13px;
+  color: #777 !important;
+  margin: 0 0 12px 0 !important;
+  min-height: 18px;
 }
 
 #password-button {
@@ -73,32 +89,28 @@ author_profile: true
 #password-error {
   display: none;
   color: #c62828 !important;
-  margin-top: 12px;
+  margin-top: 12px !important;
   margin-bottom: 0 !important;
 }
 </style>
 
 <div id="password-screen">
   <h2>Protected Project</h2>
+
   <p>Please enter the password to view this project.</p>
 
   <input
-  type="password"
-  id="password-input"
-  placeholder="Password"
-  autocomplete="off"
->
+    type="password"
+    id="password-input"
+    placeholder="Password"
+    autocomplete="off"
+  >
 
-<p id="password-hint" style="
-  font-size: 13px;
-  color: #777;
-  margin: 0 0 12px 0;
-  min-height: 18px;
-"></p>
+  <p id="password-hint"></p>
 
-<button id="password-button">
-  View Project
-</button>
+  <button id="password-button" type="button">
+    View Project
+  </button>
 
   <p id="password-error">
     Incorrect password. Please try again.
@@ -159,25 +171,59 @@ document.addEventListener("DOMContentLoaded", function () {
   const passwordScreen = document.getElementById("password-screen");
   const protectedContent = document.getElementById("protected-content");
   const passwordError = document.getElementById("password-error");
-  
+  const passwordHint = document.getElementById("password-hint");
 
   function unlockPage() {
     if (passwordInput.value === "201910") {
+
       passwordScreen.style.display = "none";
-      protectedContent.style.setProperty("display", "block", "important");
+
+      protectedContent.style.setProperty(
+        "display",
+        "block",
+        "important"
+      );
+
     } else {
+
       passwordError.style.display = "block";
+
       passwordInput.value = "";
+
+      passwordHint.textContent = "";
+
       passwordInput.focus();
     }
   }
 
-  passwordButton.addEventListener("click", unlockPage);
+  passwordButton.addEventListener("click", function () {
+    unlockPage();
+  });
 
-  passwordInput.addEventListener("keydown", function(event) {
+  passwordInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
       unlockPage();
     }
+  });
+
+  passwordInput.addEventListener("input", function () {
+
+    const length = passwordInput.value.length;
+
+    if (length > 0) {
+
+      passwordHint.textContent =
+        length +
+        (length === 1
+          ? " character entered"
+          : " characters entered");
+
+    } else {
+
+      passwordHint.textContent = "";
+    }
+
+    passwordError.style.display = "none";
   });
 
 });

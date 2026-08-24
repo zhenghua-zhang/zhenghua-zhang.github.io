@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const passwordScreen = document.getElementById("password-screen");
   const protectedContent = document.getElementById("protected-content");
   const passwordError = document.getElementById("password-error");
-  const passwordHint = document.getElementById("password-hint");
+
 
   function unlockPage() {
     if (passwordInput.value === "201910") {
@@ -204,26 +204,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (event.key === "Enter") {
       unlockPage();
     }
-  });
-
-  passwordInput.addEventListener("input", function () {
-
-    const length = passwordInput.value.length;
-
-    if (length > 0) {
-
-      passwordHint.textContent =
-        length +
-        (length === 1
-          ? " character entered"
-          : " characters entered");
-
-    } else {
-
-      passwordHint.textContent = "";
-    }
-
-    passwordError.style.display = "none";
   });
 
 });

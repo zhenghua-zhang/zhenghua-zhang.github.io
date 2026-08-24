@@ -35,10 +35,24 @@ author_profile: true
   width: 100%;
   box-sizing: border-box;
   padding: 11px 12px;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
+
   border: 1px solid #ccc;
   border-radius: 6px;
+
   font-size: 16px;
+
+  /* Make password dots visible */
+  color: #222 !important;
+  background-color: #fff !important;
+  caret-color: #222 !important;
+  -webkit-text-fill-color: #222 !important;
+}
+
+#password-input:focus {
+  outline: none;
+  border-color: #4da3c7;
+  box-shadow: 0 0 0 2px rgba(77, 163, 199, 0.18);
 }
 
 #password-button {
@@ -69,15 +83,22 @@ author_profile: true
   <p>Please enter the password to view this project.</p>
 
   <input
-    type="password"
-    id="password-input"
-    placeholder="Password"
-    autocomplete="off"
-  >
+  type="password"
+  id="password-input"
+  placeholder="Password"
+  autocomplete="off"
+>
 
-  <button id="password-button">
-    View Project
-  </button>
+<p id="password-hint" style="
+  font-size: 13px;
+  color: #777;
+  margin: 0 0 12px 0;
+  min-height: 18px;
+"></p>
+
+<button id="password-button">
+  View Project
+</button>
 
   <p id="password-error">
     Incorrect password. Please try again.
@@ -138,6 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const passwordScreen = document.getElementById("password-screen");
   const protectedContent = document.getElementById("protected-content");
   const passwordError = document.getElementById("password-error");
+  
 
   function unlockPage() {
     if (passwordInput.value === "201910") {

@@ -46,7 +46,13 @@ published: true
   caret-color: #222 !important;
   -webkit-text-fill-color: #222 !important;
 }
-
+  
+#password-input::placeholder {
+  color: #999 !important;
+  -webkit-text-fill-color: #999 !important;
+  opacity: 1;
+}
+  
 #password-button {
   width: 100%;
   padding: 11px 12px;
